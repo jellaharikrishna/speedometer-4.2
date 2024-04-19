@@ -1,0 +1,50 @@
+.bg-container {
+  height: 100vh;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #ffffff;
+  font-style: italic;
+}
+
+.image {
+  width: 50%;
+}
+.heading {
+  color: #ffffff;
+  font-size: 22px;
+}
+.description {
+  color: #cbd5e1;
+  font-size: 12px;
+}
+
+.accelerate-btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.brake-btn {
+  color: #94a3b8;
+  background-color: transparent;
+  border: 1px solid #94a3b8;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
